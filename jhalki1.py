@@ -8,7 +8,7 @@ import streamlit as st
 st.title('Imports & Exports Dataset Dashboard')
 
 # Load the dataset
-df = pd.read_csv("C:\\Users\\Rajiv Ranjan\\OneDrive\\Documents\\Imports_Exports_Dataset.csv")
+df = pd.read_csv("Imports_Exports_Dataset.csv")
 
 # Generate a sample of 3001 records
 my_sample = df.sample(n=3001, random_state=55017)
